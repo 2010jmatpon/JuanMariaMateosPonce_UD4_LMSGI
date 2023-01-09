@@ -1,0 +1,6 @@
+<!ELEMENT BDmejora (equipo*)>
+<!ELEMENT equipo (nombre, ciudad, titulos, anno_fundacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT titulos (#PCDATA)>
+<!ELEMENT anno_fundacion (#PCDATA)>

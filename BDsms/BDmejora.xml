@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BDmejora >
+    <equipo>
+        <nombre>Real Betis Balompié</nombre>
+        <ciudad>Sevilla</ciudad>
+        <titulos>4</titulos>
+        <anno_fundacion>1907</anno_fundacion>
+    </equipo>
+    <equipo>
+        <nombre>Sevilla Fútbol Club</nombre>
+        <ciudad>Sevilla</ciudad>
+        <titulos>16</titulos>
+        <anno_fundacion>1934</anno_fundacion>
+    </equipo>
+    <equipo>
+        <nombre>Cádiz Club Fútbol</nombre>
+        <ciudad>Cádiz</ciudad>
+        <titulos>0</titulos>
+        <anno_fundacion>1900</anno_fundacion>
+    </equipo>
+</BDmejora>
