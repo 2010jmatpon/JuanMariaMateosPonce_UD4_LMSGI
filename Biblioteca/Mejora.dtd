@@ -1,0 +1,17 @@
+<!ELEMENT Mejora (pelicula*)>
+<!ELEMENT pelicula (titulo, titulo_original, productora, duracion, fecha_estreno, directores, autores, genero)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT titulo_original (#PCDATA)>
+<!ELEMENT productora (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT fecha_publicacion (año)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT directores (actor)>
+<!ELEMENT director (nombre, apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT actores (actor)>
+<!ELEMENT actor (nombre, apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
