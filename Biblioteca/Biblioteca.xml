@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="BibliotecaSchema.xsd">
+    
+    <libro>
+        <codigo_libro>#1</codigo_libro>
+        <titulo>El Alquimista</titulo>
+        <editorial>Editorial Rocco</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788408045076</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes/>
+            <año>1988</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Paulo</nombre>
+                <apellido1>Coelho</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#2</codigo_libro>
+        <titulo>El Código Da Vinci</titulo>
+        <editorial>Booket</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788408175728</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>marzo</mes>
+            <año>2003</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Dan</nombre>
+                <apellido1>Brown</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#3</codigo_libro>
+        <titulo>Ángeles y Demonios</titulo>
+        <editorial>Booket</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788408175742</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>mayo</mes>
+            <año>2000</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Dan</nombre>
+                <apellido1>Brown</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#4</codigo_libro>
+        <titulo>El Señor de los Anillos</titulo>
+        <editorial>Minotauro</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788445011119</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>julio</mes>
+            <año>1954</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>J.R.R</nombre>
+                <apellido1>Tolkien</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#5</codigo_libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <editorial>Minalima</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788418174070</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>junio</mes>
+            <año>1997</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>J.K.</nombre>
+                <apellido1>Rowling</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#6</codigo_libro>
+        <titulo>Crepúsculo</titulo>
+        <editorial>Alfaguara</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788420469287</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>octubre</mes>
+            <año>2005</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Stephenie</nombre>
+                <apellido1>Meyer</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#7</codigo_libro>
+        <titulo>Pan y Circo</titulo>
+        <editorial>Roca</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788415729426</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>abril</mes>
+            <año>2014</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Yeyo</nombre>
+                <apellido1>Balbás</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#8</codigo_libro>
+        <titulo>Los Asesinos del Emperador</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788408103257</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>septiembre</mes>
+            <año>2011</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Santiago</nombre>
+                <apellido1>Posteguillo</apellido1>
+                <apellido2>Gómez</apellido2>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#9</codigo_libro>
+        <titulo>Assassin's Creed: Heresy</titulo>
+        <editorial>Ubisoft</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9789897730856</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>noviembre</mes>
+            <año>2016</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Christie</nombre>
+                <apellido1>Golden</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro>
+        <codigo_libro>#10</codigo_libro>
+        <titulo>La Ratonera</titulo>
+        <editorial>Editorial Vicens Vives</editorial>
+        <edicion>3º Edición</edicion>
+        <ISBN>9788431690908</ISBN>
+        <num_paginas>765</num_paginas>
+        <fecha_publicacion>
+            <mes>octubre</mes>
+            <año>1952</año>
+        </fecha_publicacion>
+        <autores>
+            <autor>
+                <nombre>Agata</nombre>
+                <apellido1>Christie</apellido1>
+                <apellido2/>
+            </autor>
+        </autores>
+    </libro>
+</Biblioteca>
