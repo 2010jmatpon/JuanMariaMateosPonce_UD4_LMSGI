@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="ConcesionarioSchema.xsd">
+    <coche>
+        <codigo_coche>#1</codigo_coche>
+        <marca>Renault</marca>
+            <modelo>Twingo</modelo>
+        <matricula>1234ABC</matricula>
+        <potencia>82CV</potencia>
+        <plazas>4</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#2</codigo_coche>
+        <marca>Dacia</marca>
+            <modelo>Sandero</modelo>
+        <matricula>1298OIC</matricula>
+        <potencia>110CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#3</codigo_coche>
+        <marca>Opel</marca>
+            <modelo>Corsa</modelo>
+        <matricula>8576JHG</matricula>
+        <potencia>75CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#4</codigo_coche>
+        <marca>Alpine</marca>
+            <modelo>A110</modelo>
+        <matricula>6389KYI</matricula>
+        <potencia>300CV</potencia>
+        <plazas>2</plazas>
+        <numero_puertas>2</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#5</codigo_coche>
+        <marca>Ford</marca>
+            <modelo>Focus</modelo>
+        <matricula>1765SEA</matricula>
+        <potencia>115CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#6</codigo_coche>
+        <marca>Toyota</marca>
+            <modelo>Corolla</modelo>
+        <matricula>9598MHH</matricula>
+        <potencia>196CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#7</codigo_coche>
+        <marca>Cupra</marca>
+            <modelo>Formentor</modelo>
+        <matricula>4897KFK</matricula>
+        <potencia>390CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#8</codigo_coche>
+        <marca>Mercedes</marca>
+            <modelo>Clase G</modelo>
+        <matricula>5465ERJ</matricula>
+        <potencia>585CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#9</codigo_coche>
+        <marca>Citroën</marca>
+            <modelo>Berlingo</modelo>
+        <matricula>9487JGR</matricula>
+        <potencia>136CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+    <coche>
+        <codigo_coche>#10</codigo_coche>
+        <marca>SEAT</marca>
+            <modelo>León</modelo>
+        <matricula>7473TYS</matricula>
+        <potencia>110CV</potencia>
+        <plazas>5</plazas>
+        <numero_puertas>5</numero_puertas>
+    </coche>
+
+</Concesionario>
