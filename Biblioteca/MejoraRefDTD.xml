@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Mejora SYSTEM "Mejora.dtd">
+<Mejora>
+    <pelicula>
+        <titulo>Sin Remordimientos</titulo>
+        <titulo_original>Without Remorse</titulo_original>
+        <productora>Amazon Studios</productora>
+        <duracion>110 min.</duracion>
+        <fecha_estreno>
+            <año>2021</año>
+        </fecha_estreno>
+        <directores>
+            <director>
+                <nombre>Stefano</nombre>
+                <apellido>Sollima</apellido>
+            </director>
+        </directores>
+        <actores>
+            <actor>
+                <nombre>Michael B.</nombre>
+                <apellido>Jordan</apellido>
+            </actor>
+        </actores>
+        <genero>Acción</genero>
+    </pelicula>
+
+</Mejora>

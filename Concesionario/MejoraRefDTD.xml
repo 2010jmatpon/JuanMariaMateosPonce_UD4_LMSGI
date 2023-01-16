@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Mejora SYSTEM "Mejora.dtd">
+<Mejora>
+    <prenda>
+        <codigo_prenda>#1</codigo_prenda>
+        <tipo_prenda>Camiseta</tipo_prenda>
+        <marca>Adidas</marca>
+        <coleccion>Primavera-Verano</coleccion>
+        <talla>L</talla>
+        <stock>25</stock>
+    </prenda>
+
+    <prenda>
+        <codigo_prenda>#2</codigo_prenda>
+        <tipo_prenda>Short</tipo_prenda>
+        <marca>Adidas</marca>
+        <coleccion>Primavera-Verano</coleccion>
+        <talla>S</talla>
+        <stock>7</stock>
+    </prenda>
+
+    <prenda>
+        <codigo_prenda>#3</codigo_prenda>
+        <tipo_prenda>Pantalón</tipo_prenda>
+        <marca>Jordan</marca>
+        <coleccion>Otoño_Invierno</coleccion>
+        <talla>XL</talla>
+        <stock>12</stock>
+    </prenda>
+
+    <prenda>
+        <codigo_prenda>#4</codigo_prenda>
+        <tipo_prenda>Top</tipo_prenda>
+        <marca>Nike</marca>
+        <coleccion>Primavera-Verano</coleccion>
+        <talla>M</talla>
+        <stock>22</stock>
+    </prenda>
+
+    <prenda>
+        <codigo_prenda>#5</codigo_prenda>
+        <tipo_prenda>Gorro</tipo_prenda>
+        <marca>New Era</marca>
+        <coleccion>Otoño-Invierno</coleccion>
+        <talla>Única</talla>
+        <stock>10</stock>
+    </prenda>
+</Mejora>

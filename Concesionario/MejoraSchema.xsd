@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name="Mejora">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="prenda" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="codigo_prenda" type="xs:string"/>
+                        <xs:element name="tipo_prenda" type="xs:string"/>
+                        <xs:element name="marca" type="xs:string"/>
+                        <xs:element name="coleccion" type="xs:string"/>
+                        <xs:element name="talla" type="xs:string"/>
+                        <xs:element name="stock" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>                
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

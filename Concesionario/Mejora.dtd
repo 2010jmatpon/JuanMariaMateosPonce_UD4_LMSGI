@@ -1,0 +1,8 @@
+<!ELEMENT Mejora (prenda*)>
+<!ELEMENT prenda (codigo_prenda, tipo_prenda, marca, coleccion, talla, stock)>
+<!ELEMENT codigo_prenda (#PCDATA)>
+<!ELEMENT tipo_prenda (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT coleccion (#PCDATA)>
+<!ELEMENT talla (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
