@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="ClientesSchema.xsd">
+    <sede>
+        <codigo_sede></codigo_sede>
+        <empleado></empleado>
+        <fehca>
+            <dia></dia>
+            <mes></mes>
+            <año></año>
+        </fehca>
+        <descripcion></descripcion>
+        <cliente>
+            <codigo_cliente></codigo_cliente>
+            <numero_viviendas></numero_viviendas>
+            <coste_vivienda></coste_vivienda>
+            <resumen_vivienda></resumen_vivienda>
+            <plazo_alta></plazo_alta>
+        </cliente>
+    </sede>
+
+</Clientes>

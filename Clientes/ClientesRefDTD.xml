@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
+<Clientes>
+    <sede>
+        <codigo_sede>S8570378</codigo_sede>
+        <empleado>
+            <nombre>Juan</nombre>
+            <apellido>Cruz</apellido>
+        </empleado>
+        <fehca>
+            <dia>17</dia>
+            <mes>01</mes>
+            <año>2017</año>
+        </fehca>
+        <descripcion>Solvente</descripcion>
+        <cliente>
+            <codigo_cliente>HFJ-748</codigo_cliente>
+            <numero_viviendas>1</numero_viviendas>
+            <coste_vivienda>237.000</coste_vivienda>
+            <resumen_vivienda>80 m^2</resumen_vivienda>
+            <plazo_alta>
+                <dia>17</dia>
+                <mes>02</mes>
+                <año>2017</año>
+            </plazo_alta>
+        </cliente>
+    </sede>
+
+    <sede>
+        <codigo_sede>G7859023</codigo_sede>
+        <empleado>
+            <nombre>Joaquín</nombre>
+            <apellido>Sanchez</apellido>
+        </empleado>
+        <fehca>
+            <dia>23</dia>
+            <mes>08</mes>
+            <año>2019</año>
+        </fehca>
+        <descripcion>Solvente</descripcion>
+        <cliente>
+            <codigo_cliente>PDO-749</codigo_cliente>
+            <numero_viviendas>1</numero_viviendas>
+            <coste_vivienda>456.000</coste_vivienda>
+            <resumen_vivienda>156 m^2</resumen_vivienda>
+            <plazo_alta>
+                <dia>23</dia>
+                <mes>09</mes>
+                <año>2019</año>
+            </plazo_alta>
+        </cliente>
+    </sede>
+
+    <sede>
+        <codigo_sede>I7580125</codigo_sede>
+        <empleado>
+            <nombre>Pablo</nombre>
+            <apellido>Chacón</apellido>
+        </empleado>
+        <fehca>
+            <dia>30</dia>
+            <mes>07</mes>
+            <año>2020</año>
+        </fehca>
+        <descripcion>Insolvente</descripcion>
+        <cliente>
+            <codigo_cliente>LKD-193</codigo_cliente>
+            <numero_viviendas>1</numero_viviendas>
+            <coste_vivienda>259.000</coste_vivienda>
+            <resumen_vivienda>102 m^2</resumen_vivienda>
+            <plazo_alta>
+                <dia>30</dia>
+                <mes>08</mes>
+                <año>2020</año>
+            </plazo_alta>
+        </cliente>
+    </sede>
+</Clientes>
