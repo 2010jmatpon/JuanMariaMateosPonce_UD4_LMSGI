@@ -12,9 +12,6 @@
 <!ELEMENT cliente (codigo_cliente, numero_viviendas, coste_vivienda, resumen_vivienda, plazo_alta)>
 <!ELEMENT codigo_cliente (#PCDATA)>
 <!ELEMENT numero_viviendas (#PCDATA)>
-<!ELEMENT coste_viviendas (#PCDATA)>
-<!ELEMENT resumen_viviendas (#PCDATA)>
+<!ELEMENT coste_vivienda (#PCDATA)>
+<!ELEMENT resumen_vivienda (#PCDATA)>
 <!ELEMENT plazo_alta (dia, mes, año)>
-<!ELEMENT dia (#PCDATA)>
-<!ELEMENT mes (#PCDATA)>
-<!ELEMENT año (#PCDATA)>

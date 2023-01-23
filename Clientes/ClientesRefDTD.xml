@@ -7,11 +7,11 @@
             <nombre>Juan</nombre>
             <apellido>Cruz</apellido>
         </empleado>
-        <fehca>
+        <fecha>
             <dia>17</dia>
             <mes>01</mes>
             <año>2017</año>
-        </fehca>
+        </fecha>
         <descripcion>Solvente</descripcion>
         <cliente>
             <codigo_cliente>HFJ-748</codigo_cliente>
@@ -32,11 +32,11 @@
             <nombre>Joaquín</nombre>
             <apellido>Sanchez</apellido>
         </empleado>
-        <fehca>
+        <fecha>
             <dia>23</dia>
             <mes>08</mes>
             <año>2019</año>
-        </fehca>
+        </fecha>
         <descripcion>Solvente</descripcion>
         <cliente>
             <codigo_cliente>PDO-749</codigo_cliente>
@@ -57,11 +57,11 @@
             <nombre>Pablo</nombre>
             <apellido>Chacón</apellido>
         </empleado>
-        <fehca>
+        <fecha>
             <dia>30</dia>
             <mes>07</mes>
             <año>2020</año>
-        </fehca>
+        </fecha>
         <descripcion>Insolvente</descripcion>
         <cliente>
             <codigo_cliente>LKD-193</codigo_cliente>
