@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="NuevoXSD.xsd">
+    <sede codigo = "J7558575">
+        <direccion>C/Marroquineros</direccion>
+        <empleado>Antonio Recio</empleado>
+        <fecha>12-06-2015</fecha>
+        <cliente codigo = "HGJ-747">
+            <descripcion>Solvente</descripcion>
+            <numero>1</numero>
+            <coste>345</coste>
+            <resumen>Buena vivienda en zona centrica</resumen>
+            <plazo>21</plazo>
+        </cliente>
+    </sede>
+
+    <sede codigo = "R7848938">
+        <direccion>C/Remedios</direccion>
+        <empleado>Vicente del Bosque</empleado>
+        <fecha>28-08-2017</fecha>
+        <cliente codigo = "UFT-808">
+            <descripcion>Insolvente</descripcion>
+            <numero>3</numero>
+            <coste>123</coste>
+            <resumen>Vivienda situada en las afueras</resumen>
+            <plazo>14</plazo>
+        </cliente>
+    </sede>
+
+    <sede codigo = "M6469278">
+        <direccion>C/Agua</direccion>
+        <empleado>Rodrigo Pineda</empleado>
+        <fecha>14-04-2018</fecha>
+        <cliente codigo = "YHU-649">
+            <descripcion>Insolvente</descripcion>
+            <numero>2</numero>
+            <coste></coste>
+            <resumen></resumen>
+            <plazo></plazo>
+        </cliente>
+    </sede>
+
+    <sede codigo = "">
+        <direccion></direccion>
+        <empleado></empleado>
+        <fecha></fecha>
+        <cliente codigo = "">
+            <descripcion></descripcion>
+            <numero></numero>
+            <coste></coste>
+            <resumen></resumen>
+            <plazo></plazo>
+        </cliente>
+    </sede>
+
+    <sede codigo = "">
+        <direccion></direccion>
+        <empleado></empleado>
+        <fecha></fecha>
+        <cliente codigo = "">
+            <descripcion></descripcion>
+            <numero></numero>
+            <coste></coste>
+            <resumen></resumen>
+            <plazo></plazo>
+        </cliente>
+    </sede>
+</Clientes>
