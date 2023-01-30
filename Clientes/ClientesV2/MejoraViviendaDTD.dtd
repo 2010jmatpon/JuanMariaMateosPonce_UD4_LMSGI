@@ -4,7 +4,7 @@
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT empleado (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
-<!ELEMENT cliente (descripcion, numero, vivienda)>
+<!ELEMENT cliente (descripcion, numero, vivienda*)>
     <!ATTLIST cliente codigo CDATA #REQUIRED>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT numero (#PCDATA)>
