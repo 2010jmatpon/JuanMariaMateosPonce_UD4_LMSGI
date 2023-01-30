@@ -1,0 +1,11 @@
+<!ELEMENT jugadores (jugador*)>
+<!ELEMENT jugador (nombre, dorsal, salud, fecha_primer_gol*, (portero | defensa | medio | delantero))>
+    <!ATTLIST jugador equipo CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dorsal (#PCDATA)>
+<!ELEMENT salud (#PCDATA)>
+<!ELEMENT fecha_primer_gol (#PCDATA)>
+<!ELEMENT portero (#PCDATA)>
+<!ELEMENT defensa (#PCDATA)>
+<!ELEMENT medio (#PCDATA)>
+<!ELEMENT delantero (#PCDATA)>

@@ -18,6 +18,10 @@
                                     </xs:sequence>   
                                 </xs:complexType>
                             </xs:element>
+                            <xs:choice>
+                                <xs:element name="ip" type="xs:string"/>
+                                <xs:element name="mac" type="xs:string"/>
+                            </xs:choice>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

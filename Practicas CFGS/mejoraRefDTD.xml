@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jugadores SYSTEM "mejora.dtd">
+<jugadores>
+    <jugador equipo= "Real Betis">
+        <nombre>Germán Pezzella</nombre>
+        <dorsal>16</dorsal>
+        <salud>En forma</salud>
+        <fecha_primer_gol>12/03/2017</fecha_primer_gol>
+        <defensa>central</defensa>
+    </jugador>
+    <jugador equipo="Cádiz CF">
+        <nombre>Brian Ocampo</nombre>
+        <dorsal>14</dorsal>
+        <salud>En Forma</salud>
+        <delantero>Extremo Izquierdo</delantero>
+    </jugador>
+</jugadores>

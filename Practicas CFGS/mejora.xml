@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jugadores xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
+xsi:noNamespaceSchemaLocation="mejoraSchema.xsd">
+    <jugador equipo= "Real Betis">
+        <nombre>Germán Pezzella</nombre>
+        <dorsal>16</dorsal>
+        <salud>En forma</salud>
+        <fecha_primer_gol>12/03/2017</fecha_primer_gol>
+        <defensa>central</defensa>
+    </jugador>
+    <jugador equipo="Cádiz CF">
+        <nombre>Brian Ocampo</nombre>
+        <dorsal>14</dorsal>
+        <salud>En Forma</salud>
+        <delantero>Extremo Izquierdo</delantero>
+    </jugador>
+    <jugador equipo= "Valencia FC">
+        <nombre>Hugo Guillamón</nombre>
+        <dorsal>4</dorsal>
+        <salud>Lesionado</salud>
+        <fecha_primer_gol>2/10/2022</fecha_primer_gol>
+        <medio>pivote defensivo</medio>
+    </jugador>
+</jugadores>

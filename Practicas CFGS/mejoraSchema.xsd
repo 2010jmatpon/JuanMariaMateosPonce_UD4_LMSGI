@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="0.1" xml:lang="es">
+    <xs:element name="jugadores" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="jugador"  maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="dorsal" type="xs:string"/>
+                            <xs:element name="salud" type="xs:string"/>
+                            <xs:element name="fecha_primer_gol" type="xs:string"/>
+                            <xs:choice>
+                                <xs:element name="portero" type="xs:string"/>
+                                <xs:element name="defensa" type="xs:string"/>
+                                <xs:element name="medio" type="xs:string"/>
+                                <xs:element name="delantero" type="xs:string"/>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="equipo">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+</xs:schema>
