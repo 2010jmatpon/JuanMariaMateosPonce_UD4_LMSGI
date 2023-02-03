@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="0.1" xml:lang="es">
-    <xs:element name="clientes" >
+    <xs:element name="Clientes" >
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="sede"  maxOccurs="unbounded">
@@ -10,7 +10,7 @@
                             <xs:element name="direccion" type="xs:string"/>
                             <xs:element name="empleado" type="xs:string"/>
                             <xs:element name="fecha" type="xs:string"/>
-                            <xs:element name="cliente">
+                            <xs:element name="cliente" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="descripcion" type="xs:string"/>
@@ -19,18 +19,19 @@
                                         <xs:element name="resumen" type="xs:string"/>
                                         <xs:element name="plazo" type="xs:string"/>
                                     </xs:sequence>
-                                    <xs:attribute name="codigo" type="codigo"/>     
+                                    <xs:attribute name="codigo" type="xs:string"/>     
                                 </xs:complexType>
                             </xs:element>
-                            <xs:simpleType name="codigo">
-                                <xs:restriction base="xs:string">
-                                    <xs:patern value="[A-Z az] ([A-Z az 0-9]){7}"/>
-                                </xs:restriction>
-                            </xs:simpleType>
                         </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:string"/> 
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="codigo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z az] ([A-Z az 0-9]){7}"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

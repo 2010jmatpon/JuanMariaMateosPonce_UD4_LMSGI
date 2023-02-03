@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="0.1" xml:lang="es">
+    <xs:element name="modulos" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="modulo"  maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="contenidos" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ud" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tipo" type="xs:string"/>
+                                                    <xs:element name="descripcion" type="xs:string"/>
+                                                </xs:sequence> 
+                                                <xs:attribute name="numero" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>                               
+                                    </xs:sequence>
+                                   
+                                </xs:complexType>    
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="numero">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+</xs:schema>

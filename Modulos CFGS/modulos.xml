@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="modulosSchema.xsd">
+    <modulo>
+        <nombre></nombre>
+        <contenidos>
+            <ud numero="1">
+                <tipo></tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenidos>
+    </modulo>
+</modulos>

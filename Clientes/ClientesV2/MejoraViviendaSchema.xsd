@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="0.1" xml:lang="es">
-    <xs:element name="clientes" >
+    <xs:element name="Clientes" >
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="sede"  maxOccurs="unbounded">
@@ -22,14 +22,15 @@
                                                     <xs:element name="resumen" type="xs:string"/>
                                                     <xs:element name="plazo" type="xs:string"/>
                                                 </xs:sequence>
-                                                <xs:attribute name="ID" type="ID"></xs:attribute>
+                                                <xs:attribute name="ID" type="xs:string"></xs:attribute>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="codigo" type="codigo"/>     
+                                    <xs:attribute name="codigo" type="xs:string"/>     
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:string"/>  
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

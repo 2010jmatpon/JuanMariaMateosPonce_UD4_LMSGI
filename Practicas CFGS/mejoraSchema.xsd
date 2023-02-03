@@ -18,6 +18,7 @@
                                 <xs:element name="delantero" type="xs:string"/>
                             </xs:choice>
                         </xs:sequence>
+                        <xs:attribute name="equipo" type="xs:string"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

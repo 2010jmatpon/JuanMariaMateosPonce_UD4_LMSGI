@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jugadores xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
+<jugadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="mejoraSchema.xsd">
     <jugador equipo= "Real Betis">
         <nombre>Germán Pezzella</nombre>
@@ -12,6 +12,7 @@ xsi:noNamespaceSchemaLocation="mejoraSchema.xsd">
         <nombre>Brian Ocampo</nombre>
         <dorsal>14</dorsal>
         <salud>En Forma</salud>
+        <fecha_primer_gol>04/10/2019</fecha_primer_gol>
         <delantero>Extremo Izquierdo</delantero>
     </jugador>
     <jugador equipo= "Valencia FC">

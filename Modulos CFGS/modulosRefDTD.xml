@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE modulos SYSTEM "modulos.dtd">
+<modulos>
+    <modulo>
+        <nombre>Programación</nombre>
+        <contenidos>
+            <ud numero="1">
+                <tipo>Pseudocódigos</tipo>
+                <descripcion>Programación de pseudocódigo en Pseint</descripcion>
+            </ud>
+            <ud numero="2">
+                <tipo>Bucles</tipo>
+                <descripcion>Iniciación a los Bucles</descripcion>
+            </ud>
+            <ud numero="3">
+                <tipo>Arrays</tipo>
+                <descripcion>Arrays en Java</descripcion>
+            </ud>
+        </contenidos>
+    </modulo>
+    
+    <modulo>
+        <nombre>Formación y Orientación Laboral</nombre>
+        <contenidos>
+            <ud numero="1">
+                <tipo>Contratos de Trabajo</tipo>
+                <descripcion>Tipos de contratos</descripcion>
+            </ud>
+            <ud numero="2">
+                <tipo>Nóminas</tipo>
+                <descripcion>Como elaborar una nómina</descripcion>
+            </ud>
+            <ud numero="3">
+                <tipo>Finiquitos</tipo>
+                <descripcion>Como elaborar un finiquito</descripcion>
+            </ud>
+        </contenidos>
+    </modulo>
+
+    <modulo>
+        <nombre>Base de datos</nombre>
+        <contenidos>
+            <ud numero="1">
+                <tipo>Diagramas de flujo</tipo>
+                <descripcion>Iniciación a las bases de datos</descripcion>
+            </ud>
+            <ud numero="2">
+                <tipo>Modelo relacional</tipo>
+                <descripcion>Como realizar una Base de datos a partir del modelo relacional</descripcion>
+            </ud>
+            <ud numero="3">
+                <tipo>Lenguaje DML</tipo>
+                <descripcion>Creación de Base de datos en SQL</descripcion>
+            </ud>
+        </contenidos>
+    </modulo>
+</modulos>
