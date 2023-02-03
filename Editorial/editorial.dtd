@@ -1,0 +1,12 @@
+<!ELEMENT informe (cabecera, cuerpo)>
+<!ELEMENT cabecera (nombre, tipo, descripcion, fecha_informe)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha_informe (#PCDATA)>
+<!ELEMENT cuerpo (region*)>
+<!ELEMENT region (ubicacion, trimestre*)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT trimestre (librosVendidos)>
+    <!ATTLIST trimestre numero CDATA #REQUIRED>
+<!ELEMENT librosVendidos (#PCDATA)>
